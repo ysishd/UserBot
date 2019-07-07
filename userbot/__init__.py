@@ -48,11 +48,11 @@ if CONFIG_CHECK:
     LOGS.error("Please remove the line mentioned in the first hashtag from the config.env file")
     quit(1)
 
-API_KEY = os.environ.get("API_KEY","809871")
+API_KEY = os.environ.get("API_KEY","855872")
 
 OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
 
-API_HASH = os.environ.get("API_HASH", "8247ae5ec04930012e35d7057c85e4f2")
+API_HASH = os.environ.get("API_HASH", "030a133841c7ed3a01e482a062a53f99")
 
 STRING_SESSION = os.environ.get("STRING_SESSION", None)
 
